@@ -1,51 +1,22 @@
-# Project-specific ignore
+# ℹ️ ADD FILES TO YOUR GIT ℹ️
+#   You can forcefully add files to your repo despite their patter being covered in this .gitignore, use:
+#     git add --force my/ignore/file.foo
+#     -OR-
+#     git add -f my/ignore/file.foo
+# 
+# Put your project-specific ignores here:
 
 
 
 
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,linux,windows,r,python,sublimetext,vscode,emacs,vim,jetbrains,latex
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,windows,r,python,sublimetext,vscode,emacs,vim,jetbrains,latex
 
-### Video ###
-*.3g2
-*.3gp
-*.asf
-*.asx
-*.avi
-*.flv
-*.mkv
-*.mov
-*.mp4
-*.mpg
-*.ogv
-*.rm
-*.swf
-*.vob
-*.wmv
-*.webm
+# DO NOT CHANGE THE CONTENT THAT FOLLOWS HERE ...
+#   EXCEPT IF YOU PLAN TO UPDATE THE TEMPLATE
+#   To add apps or group of files (e.g., videos) please use the EDIT URL three lines below this one!
 
-### MicrosoftOffice ###
-*.tmp
-
-# Word temporary
-~$*.doc*
-
-# Word Auto Backup File
-Backup of *.doc*
-
-# Excel temporary
-~$*.xls*
-
-# Excel Backup File
-*.xlk
-
-# PowerPoint temporary
-~$*.ppt*
-
-# Visio autosave temporary files
-*.~vsd*
-
+# Created by https://www.toptal.com/developers/gitignore/api/r,vim,linux,macos,emacs,latex,vscode,python,windows,jetbrains,sublimetext,video,microsoftoffice,libreoffice,git
+# Edit at https://www.toptal.com/developers/gitignore?templates=r,vim,linux,macos,emacs,latex,vscode,python,windows,jetbrains,sublimetext,video,microsoftoffice,libreoffice,git
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -97,6 +68,21 @@ flycheck_*.el
 # network security
 /network-security.data
 
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
 ### JetBrains ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -492,6 +478,10 @@ TSWLatexianTemp*
 # glossaries
 *.glstex
 
+### LibreOffice ###
+# LibreOffice locks
+.~lock.*#
+
 ### Linux ###
 
 # temporary files which can be created if a process still has a handle open of a deleted file
@@ -534,6 +524,27 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### MicrosoftOffice ###
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -750,6 +761,24 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+### Video ###
+*.3g2
+*.3gp
+*.asf
+*.asx
+*.avi
+*.flv
+*.mkv
+*.mov
+*.mp4
+*.mpg
+*.ogv
+*.rm
+*.swf
+*.vob
+*.wmv
+*.webm
+
 ### Vim ###
 # Swap
 [._]*.s[a-v][a-z]
@@ -804,4 +833,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows,r,python,sublimetext,vscode,emacs,vim,jetbrains,latex
+# End of https://www.toptal.com/developers/gitignore/api/r,vim,linux,macos,emacs,latex,vscode,python,windows,jetbrains,sublimetext,video,microsoftoffice,libreoffice,git
