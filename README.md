@@ -6,7 +6,8 @@ Paste your Abstract in here.
 
 ## Publication Links
 - [Journal](https://#)
-- [ODF](https://#)
+- [Preprint](https://#)
+- [OSF](https://#)
 - [Zenodo](https://#)
 - [Figshare](https://#)
 
@@ -15,7 +16,7 @@ Paste your Abstract in here.
 You can retrieve the data ...
 
 ### docs
-Procedures and coding schema can be found within the docs folder. It is structued like this... 
+Procedures and coding schema can be found within the docs folder. It is structured like this... 
 
 
 
