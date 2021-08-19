@@ -1,18 +1,20 @@
-# YAML 1.2
----
-abstract: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. “What’s happened to me?” he thought. It wasn't a dream."
+cff-version: 1.2.0
+message: "If you use this [document/software/resource], please cite it using these metadata."
 authors: 
-  -
-    family-names: Kalinke
+  - family-names: Kalinke
     given-names: Steven
-cff-version: "1.1.0"
+    orcid: https://orcid.org/0000-0000-0000-0000
+    affiliation: "Max Planck Institute for Evolutionary Anthropology"
+    email: "steven_kalinke@eva.mpg.de"
+    website: http://ccp-odc.eva.mpg.de/
+  - family-names: Bohn
+    given-names: Manuel
+title: "The Metamorphosis"
+abstract: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. “What’s happened to me?” he thought. It wasn't a dream."
 date-released: 2021-07-19
 doi: "10.5281/zenodo.1003150"
 keywords: 
   - "culture, chimpanzee, eye-tracking, ice cream"
 license: "CC BY 4.0"
-message: "If you use this [document/software/resource], please cite it using these metadata."
 repository-code: "https://github.com/ccp-eva/your-project"
-title: "The Metamorphosis"
 version: "1.0.0"
-...
